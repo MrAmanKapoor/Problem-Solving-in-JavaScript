@@ -9,24 +9,30 @@
     <script src="script.js"></script>
 </head>
 <style>
-     body
-    {
-       max-width: 100%;
-    }
+   
     .container {
-        display: grid;
-        grid-template-columns: auto auto auto;
+        display: flex;
+        flex-direction: row;
         gap: 30px;
         margin: 5%;
+        flex-wrap: wrap;
+        justify-content: center;
+        
 
     }
 
     .btn {
+        
         background-color: rgba(200, 58, 58, 0.8);
+        flex-basis: 30%;
         text-align: center;
+        flex-wrap: wrap;
+        color: white;
         padding: 20px;
         border-radius: 10px;
         font-size: 30px;
+        text-shadow: 1px 3px 10px black;
+        
     }
 </style>
 
@@ -40,15 +46,7 @@
         <button onclick ="Sum_of_numbers_within_an_array()" class="btn">Sum of numbers within an array</button>
         <button onclick="filters_out_negative_numbers()" class="btn">A function that filters out negative numbers</button>
         <button onclick="Return_Something_to_Me()" class="btn">Return Something to Me!</button>
-        <button class="btn">Given a string, reverse each word in the sentence</button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
+        
 
 
     </div>
