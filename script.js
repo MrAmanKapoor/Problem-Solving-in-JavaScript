@@ -127,3 +127,43 @@ function Return_Something_to_Me()
   alert("Sorry I'm not Available...");
 
 }
+
+
+//.......Given a string, reverse each word in the sentence.........//
+function POPUP_msg()
+{
+   
+	
+
+	alert("Welcome to my WebPage!!!");
+
+	
+	
+}
+
+////......// Program to guess a Number...../////
+
+function guessNumber() {
+
+    // generating a random integer from 1 to 10
+    const random = Math.floor(Math.random() * 10) + 1;
+
+    // take input from the user
+    let number = parseInt(prompt('Guess a number from 1 to 10: '));
+
+
+
+    // check if the guess is correct
+    if(number == random) {
+        
+        alert("You guess the correct number." +number);
+    }
+    else
+    {
+        alert("You guess the incorrect number:- " +number +" Correct number is:- " +random);
+    
+    }
+    
+
+  
+}
