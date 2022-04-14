@@ -167,3 +167,30 @@ function guessNumber() {
 
   
 }
+
+
+
+//.........Get the integers in a range........////
+
+function integers_in_a_range()
+{
+var  start_num= parseInt(prompt('Get the integers in a range.. Enter 1st Number:- '));
+var  end_num= parseInt(prompt(' Enter 2nd Number:- '));
+var range = function(start_num, end_num) 
+{
+  if (end_num - start_num === 2) 
+  {
+    return [start_num + 1];
+  } 
+  else 
+  {
+    var list = range(start_num, end_num - 1);
+    list.push(end_num - 1);
+    return list;
+  }
+};
+
+var result= range(start_num, end_num);
+alert("Range btw " + start_num + " to "+ end_num + " is " + result);
+
+}
