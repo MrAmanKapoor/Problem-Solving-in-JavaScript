@@ -236,24 +236,6 @@ myObject.func();
 
 /*
 
-function Sum_of_numbers_within_an_array() {
-    var a = [];
-    var x=0;
-    while (x < 5) 
-    {
-
-        a[x] = window.prompt("Enter Array Element " + (a));
-        x++;
-    }
-   
-    let sum = 0;
-    
-    for (var i = 0; i < a.length; i++) {
-        sum = sum+ a[i];
-    }
-    console.log(sum);
-   
-}
 
 //................Remove_duplicate_item_from_an_array.............//
 function Remove_duplicate_item_from_an_array()
