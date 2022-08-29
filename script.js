@@ -93,7 +93,6 @@ function Fibonacci_Number()
 
     var result = Fibonacci(n);
     console.log(result);
-    document.write("Fibonacci of " + n + " is " + result);
     alert("Fibonacci of " + n + " is " + result);
 
 }
