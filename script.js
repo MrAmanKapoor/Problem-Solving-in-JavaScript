@@ -357,15 +357,6 @@ selectInput.addEventListener('change', function(e) {
 
 })
 
-ratingInput.addEventListener('change', function(e) {
-    ratingsinInput = e.target.value;
-    ratings[phoneNames] = ratingsinInput;
-    rateIt()
-})
-
-
-
-
 
 
 
